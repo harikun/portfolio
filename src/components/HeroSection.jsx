@@ -10,10 +10,10 @@ function HeroSection() {
                 Cipto Suhari
               </span>
             </h1>
-            <p className="h2 font-medium text-slate-500 text-lg mb-5">
+            <p className="h2 font-medium text-secondary text-lg mb-5">
               Web Developer
             </p>
-            <p className="font-medium text-slate-400 mb-10 leading-relaxed">
+            <p className="font-medium text-secondary mb-10 leading-relaxed">
               Belajar web programming itu menyenangkan dan mudah bukan?{" "}
               <span className="text-dark font-semibold">Bukan!</span>
             </p>
