@@ -3,23 +3,23 @@ function AboutSection() {
     <section id="about pt-36 pb-32">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10">
+          <div className="w-full px-4 mb-10 lg:w-1/2">
             <h2 className="font-bold uppercase text-primary text-lg mb-3">
               Tentang Saya
             </h2>
-            <p className="font-bold text-dark text-3xl mb-5 max-w-md">
+            <p className=" lg:text-4xl font-bold text-dark text-3xl mb-5 max-w-md">
               Yuk, Belajar Web Programming di sini!
             </p>
-            <p className="font-medium text-base text-secondary max-w-xl">
+            <p className=" lg:text-lg font-medium text-base text-secondary max-w-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               varius nulla at dolor consequat pellentesque. Aliquam.
             </p>
           </div>
-          <div className="w-full px-4 mb-10">
-            <h2 className="font-semibold text-dark text-2xl mb-4">
+          <div className="w-full px-4 mb-10 lg:w-1/2">
+            <h2 className="lg:pt-10 lg:text-3xl font-semibold text-dark text-2xl mb-4">
               Mari Berteman
             </h2>
-            <p className="font-medium text-base text-secondary mb-6">
+            <p className="lg:text-lg font-medium text-base text-secondary mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               nisi nisl, dictum in dolor sit amet, suscipit pharetra massa.
             </p>
