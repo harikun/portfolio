@@ -24,9 +24,9 @@ function NavBar() {
               className="block absolute right-4"
               onClick={hambuger}
             >
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
-              <span className="hamburger-line"></span>
+              <span className="origin-top-left hamburger-line transition duration-300 ease-in-out"></span>
+              <span className="hamburger-line transition duration-300 ease-in-out"></span>
+              <span className="origin-bottom-left hamburger-line transition duration-300 ease-in-out"></span>
             </button>
           </div>
         </div>
