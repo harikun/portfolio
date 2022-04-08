@@ -1,4 +1,9 @@
 function NavBar() {
+  const hambuger = () => {
+    const nav = document.querySelector("#hamburger");
+    nav.classList.toggle("hamburger-active");
+  };
+
   return (
     <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container ">
@@ -17,6 +22,7 @@ function NavBar() {
               name="hamburger"
               type="button"
               className="block absolute right-4"
+              onClick={hambuger}
             >
               <span className="hamburger-line"></span>
               <span className="hamburger-line"></span>
