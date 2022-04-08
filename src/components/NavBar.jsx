@@ -4,6 +4,17 @@ function NavBar() {
     nav.classList.toggle("hamburger-active");
   };
 
+  window.onscroll = function () {
+    const header = document.querySelector("header");
+    const fixedNav = header.offsetTop;
+
+    if (window.pageYOffset > fixedNav) {
+      header.classList.add("navbar-fixed");
+    } else {
+      header.classList.remove("navbar-fixed");
+    }
+  };
+
   return (
     <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container ">
