@@ -18,9 +18,9 @@ function NavBar() {
               type="button"
               className="block absolute right-4"
             >
-              <span></span>
-              <span></span>
-              <span></span>
+              <span className="hamburger-line"></span>
+              <span className="hamburger-line"></span>
+              <span className="hamburger-line"></span>
             </button>
           </div>
         </div>
