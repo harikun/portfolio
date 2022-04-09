@@ -25,9 +25,16 @@ function PortfolioSection() {
                 alt="Landing Page Budiman (CV)"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
-                Landing Page Budiman (CV)
-              </h3>
+              <a
+                href="https://cvbudiman.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <h3 className="font-semibold text-lg text-dark mt-5">
+                  Landing Page Budiman (CV)
+                </h3>
+              </a>
+
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
@@ -42,9 +49,15 @@ function PortfolioSection() {
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
-                Python Script web Indonesia
-              </h3>
+              <a
+                href="https://github.com/harikun/data-scraping"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <h3 className="font-semibold text-lg text-dark mt-5">
+                  Python Script web Indonesia
+                </h3>
+              </a>
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
@@ -59,9 +72,15 @@ function PortfolioSection() {
                 alt="Canvas Gambar untuk anak-anak"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
-                Canvas Gambar untuk anak-anak
-              </h3>
+              <a
+                href="https://ngambar.netlify.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <h3 className="font-semibold text-lg text-dark mt-5">
+                  Canvas Gambar untuk anak-anak
+                </h3>
+              </a>
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
@@ -76,9 +95,15 @@ function PortfolioSection() {
                 alt="Kalkulator Pajak Penghasilan"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
-                Kalkulator Pajak Penghasilan WP0
-              </h3>
+              <a
+                href="https://calljak.web.app/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <h3 className="font-semibold text-lg text-dark mt-5">
+                  Kalkulator Pajak Penghasilan WP0
+                </h3>
+              </a>
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
