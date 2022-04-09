@@ -21,6 +21,23 @@ function PortfolioSection() {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <img
+                src={require("../images/portfolio-4.png")}
+                alt="Landing Page Budiman (CV)"
+                className="w-full"
+              />
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                Landing Page Budiman (CV)
+              </h3>
+              <p className="font-medium text-base text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                ut lorem elit. In eros lectus. consectetur adipiscing elit.
+                Morbi ut lorem elit
+              </p>
+            </div>
+          </div>
+          <div className="mb-12 p-4 md:w-1/2">
+            <div className="rounded-md shadow-md overflow-hidden">
+              <img
                 src={require("../images/portfolio-3.png")}
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
