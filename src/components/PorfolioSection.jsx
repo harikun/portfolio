@@ -13,11 +13,29 @@ function PortfolioSection() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
               lorem elit. In eros lectus. consectetur adipiscing elit. Morbi ut
-              lorem elit.{" "}
+              lorem elit.
             </p>
           </div>
         </div>
-        <div className="w-full px-4 flex flex-wrap justify-center"></div>
+        <div className="w-full px-4 flex flex-wrap justify-center">
+          <div className="mb-12 p-4">
+            <div className="rounded-md shadow-md overflow-hidden">
+              <img
+                src={require("../images/portfolio-1.png")}
+                alt="Kalkulator Pajak Penghasilan"
+                className="w-full"
+              />
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                Kalkulator Pajak Penghasilan WP0
+              </h3>
+              <p className="font-medium text-base text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                ut lorem elit. In eros lectus. consectetur adipiscing elit.
+                Morbi ut lorem elit
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
