@@ -6,12 +6,12 @@ function HeroSection() {
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary lg:text-xl">
               Halo Semua 👋, saya{" "}
-              <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
+              <span className="block font-bold text-dark text-4xl mt-1 mb-2 lg:text-5xl">
                 Cipto Suhari
               </span>
             </h1>
             <p className="h2 font-medium text-secondary text-lg mb-5">
-              Web Developer
+              Front End Developer
             </p>
             <p className="font-medium text-secondary mb-10 leading-relaxed">
               Belajar web programming itu menyenangkan dan mudah bukan?{" "}
