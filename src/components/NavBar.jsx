@@ -61,7 +61,7 @@ function NavBar() {
                     href="#about"
                     className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
                   >
-                    tentang Saya
+                    Tentang Saya
                   </a>
                 </li>
                 <li className="group">
@@ -70,14 +70,6 @@ function NavBar() {
                     className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
                   >
                     Portfolio
-                  </a>
-                </li>
-                <li className="group">
-                  <a
-                    href="#clients"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
-                  >
-                    Clients
                   </a>
                 </li>
                 <li className="group">
