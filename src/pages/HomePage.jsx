@@ -3,6 +3,7 @@ import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import PortfolioSection from "../components/PorfolioSection";
 import BlogSection from "../components/BlogSection";
+import ContactSection from "../components/ContactSection";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <AboutSection />
       <PortfolioSection />
       <BlogSection />
+      <ContactSection />
     </>
   );
 }
