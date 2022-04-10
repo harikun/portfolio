@@ -25,15 +25,16 @@ function PortfolioSection() {
                 alt="Landing Page Budiman (CV)"
                 className="w-full"
               />
-              <a
-                href="https://cvbudiman.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                <a
+                  href="https://cvbudiman.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="underline"
+                >
                   Landing Page Budiman (CV)
-                </h3>
-              </a>
+                </a>
+              </h3>
 
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -49,15 +50,16 @@ function PortfolioSection() {
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
               />
-              <a
-                href="https://github.com/harikun/data-scraping"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                <a
+                  href="https://github.com/harikun/data-scraping"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="underline"
+                >
                   Python Script web Indonesia
-                </h3>
-              </a>
+                </a>
+              </h3>
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
@@ -72,15 +74,18 @@ function PortfolioSection() {
                 alt="Canvas Gambar untuk anak-anak"
                 className="w-full"
               />
-              <a
-                href="https://ngambar.netlify.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <h3 className="font-semibold text-lg text-dark mt-5">
+
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                <a
+                  href="https://ngambar.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="underline"
+                >
                   Canvas Gambar untuk anak-anak
-                </h3>
-              </a>
+                </a>
+              </h3>
+
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
@@ -95,15 +100,16 @@ function PortfolioSection() {
                 alt="Kalkulator Pajak Penghasilan"
                 className="w-full"
               />
-              <a
-                href="https://calljak.web.app/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="font-semibold text-lg text-dark mt-5">
+                <a
+                  href="https://calljak.web.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="underline"
+                >
                   Kalkulator Pajak Penghasilan WP0
-                </h3>
-              </a>
+                </a>
+              </h3>
               <p className="font-medium text-base text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
