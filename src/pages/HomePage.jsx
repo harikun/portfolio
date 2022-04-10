@@ -2,6 +2,7 @@ import Navbar from "../components/NavBar";
 import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import PortfolioSection from "../components/PorfolioSection";
+import BlogSection from "../components/BlogSection";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <HeroSection />
       <AboutSection />
       <PortfolioSection />
+      <BlogSection />
     </>
   );
 }
