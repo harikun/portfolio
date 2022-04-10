@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection";
 import PortfolioSection from "../components/PorfolioSection";
 import BlogSection from "../components/BlogSection";
 import ContactSection from "../components/ContactSection";
+import FooterSection from "../components/FooterSection";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <PortfolioSection />
       <BlogSection />
       <ContactSection />
+      <FooterSection />
     </>
   );
 }
