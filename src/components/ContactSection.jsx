@@ -3,20 +3,20 @@ function ContactSection() {
     <section id="contact" className="pt-32 pb-32">
       <div className="container">
         <div className="w-full px-4">
-          <div className="max-w-full mx-auto text-center mb-16">
-            <h3 className="font-semibold text-lg text-primary mb-2">Contact</h3>
-            <h4 className="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl mb-4">
+          <div className="mx-auto mb-16 max-w-full text-center">
+            <h3 className="mb-2 text-lg font-semibold text-primary">Contact</h3>
+            <h4 className="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">
               Hubungi Kami
             </h4>
-            <p className="font-medium text-md text-secondary md:text-lg">
+            <p className="text-md font-medium text-secondary md:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               libero quam, sollicitudin vel augue.
             </p>
           </div>
         </div>
         <form>
-          <div className="w-full lg:w-2/3 lg:mx-auto">
-            <div className="w-full px-4 mb-8">
+          <div className="w-full lg:mx-auto lg:w-2/3">
+            <div className="mb-8 w-full px-4">
               <label
                 htmlFor="name"
                 className="text-base font-bold text-primary"
@@ -26,12 +26,12 @@ function ContactSection() {
               <input
                 type="text"
                 id="name"
-                className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1
-            focus:border-primary"
+                className="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1
+            focus:ring-primary"
                 placeholder="Nama"
               />
             </div>
-            <div className="w-full px-4 mb-8">
+            <div className="mb-8 w-full px-4">
               <label
                 htmlFor="email"
                 className="text-base font-bold text-primary"
@@ -41,12 +41,12 @@ function ContactSection() {
               <input
                 type="email"
                 id="email"
-                className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1
-            focus:border-primary"
+                className="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1
+            focus:ring-primary"
                 placeholder="Email"
               />
             </div>
-            <div className="w-full px-4 mb-8">
+            <div className="mb-8 w-full px-4">
               <label
                 htmlFor="message"
                 className="text-base font-bold text-primary"
@@ -56,15 +56,15 @@ function ContactSection() {
               <textarea
                 type="email"
                 id="email"
-                className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1
-            focus:border-primary h-32"
+                className="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none
+            focus:ring-1 focus:ring-primary"
                 placeholder="Email"
               />
             </div>
             <div className="w-full px-4">
               <button
-                className="text-base w-full font-semibold transition duration-500 ease-in-out
-            text-white bg-primary py-3 px-8 rounded-full hover:opacity-80 hover:shadow-lg"
+                className="w-full rounded-full bg-primary py-3 px-8 text-base
+            font-semibold text-white transition duration-500 ease-in-out hover:opacity-80 hover:shadow-lg"
               >
                 Kirim
               </button>

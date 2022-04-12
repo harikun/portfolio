@@ -1,31 +1,31 @@
 function PortfolioSection() {
   return (
-    <section id="portfolio" className="pt-16 pb-16 bg-slate-100">
+    <section id="portfolio" className="bg-slate-100 pt-16 pb-16">
       <div className="container">
         <div className="w-full px-4">
-          <div className="max-w-xl mx-auto text-center mb-16">
-            <h3 className="font-semibold text-lg text-primary mb-2">
+          <div className="mx-auto mb-16 max-w-xl text-center">
+            <h3 className="mb-2 text-lg font-semibold text-primary">
               Portfolio
             </h3>
-            <h4 className="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl mb-4">
+            <h4 className="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">
               Project Terbaru
             </h4>
-            <p className="font-medium text-md text-secondary md:text-lg">
+            <p className="text-md font-medium text-secondary md:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
               lorem elit. In eros lectus. consectetur adipiscing elit. Morbi ut
               lorem elit.
             </p>
           </div>
         </div>
-        <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+        <div className="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="overflow-hidden rounded-md shadow-md">
               <img
                 src={require("../images/portfolio-4.png")}
                 alt="Landing Page Budiman (CV)"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="mt-5 text-lg font-semibold text-dark">
                 <a
                   href="https://cvbudiman.netlify.app/"
                   rel="noreferrer"
@@ -36,7 +36,7 @@ function PortfolioSection() {
                 </a>
               </h3>
 
-              <p className="font-medium text-base text-secondary">
+              <p className="text-base font-medium text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
                 Morbi ut lorem elit
@@ -44,13 +44,13 @@ function PortfolioSection() {
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="overflow-hidden rounded-md shadow-md">
               <img
                 src={require("../images/portfolio-3.png")}
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="mt-5 text-lg font-semibold text-dark">
                 <a
                   href="https://github.com/harikun/data-scraping"
                   rel="noreferrer"
@@ -60,7 +60,7 @@ function PortfolioSection() {
                   Python Script web Indonesia
                 </a>
               </h3>
-              <p className="font-medium text-base text-secondary">
+              <p className="text-base font-medium text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
                 Morbi ut lorem elit
@@ -68,14 +68,14 @@ function PortfolioSection() {
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="overflow-hidden rounded-md shadow-md">
               <img
                 src={require("../images/portfolio-2.png")}
                 alt="Canvas Gambar untuk anak-anak"
                 className="w-full"
               />
 
-              <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="mt-5 text-lg font-semibold text-dark">
                 <a
                   href="https://ngambar.netlify.app/"
                   rel="noreferrer"
@@ -86,7 +86,7 @@ function PortfolioSection() {
                 </a>
               </h3>
 
-              <p className="font-medium text-base text-secondary">
+              <p className="text-base font-medium text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
                 Morbi ut lorem elit
@@ -94,13 +94,13 @@ function PortfolioSection() {
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="overflow-hidden rounded-md shadow-md">
               <img
                 src={require("../images/portfolio-1.png")}
                 alt="Kalkulator Pajak Penghasilan"
                 className="w-full"
               />
-              <h3 className="font-semibold text-lg text-dark mt-5">
+              <h3 className="mt-5 text-lg font-semibold text-dark">
                 <a
                   href="https://calljak.web.app/"
                   rel="noreferrer"
@@ -110,7 +110,7 @@ function PortfolioSection() {
                   Kalkulator Pajak Penghasilan WP0
                 </a>
               </h3>
-              <p className="font-medium text-base text-secondary">
+              <p className="text-base font-medium text-secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 ut lorem elit. In eros lectus. consectetur adipiscing elit.
                 Morbi ut lorem elit

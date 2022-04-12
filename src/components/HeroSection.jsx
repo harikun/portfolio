@@ -6,32 +6,32 @@ function HeroSection() {
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary lg:text-xl">
               Halo Semua 👋, saya{" "}
-              <span className="block font-bold text-dark text-4xl mt-1 mb-2 lg:text-5xl">
+              <span className="mt-1 mb-2 block text-4xl font-bold text-dark lg:text-5xl">
                 Cipto Suhari
               </span>
             </h1>
-            <p className="h2 font-medium text-secondary text-lg mb-5">
+            <p className="h2 mb-5 text-lg font-medium text-secondary">
               Front End Developer
             </p>
-            <p className="font-medium text-secondary mb-10 leading-relaxed">
+            <p className="mb-10 font-medium leading-relaxed text-secondary">
               Belajar web programming itu menyenangkan dan mudah bukan?{" "}
-              <span className="text-dark font-semibold">Bukan!</span>
+              <span className="font-semibold text-dark">Bukan!</span>
             </p>
             <a
               href="#hubungi"
-              className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              className="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
             >
               Hubungi Saya
             </a>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2">
-            <div className="mt-10 relative lg:mt-0 lg:right-0">
+            <div className="relative mt-10 lg:right-0 lg:mt-0">
               <img
                 src={require("../images/hero-image.png")}
                 alt="Cipto Suhari"
-                className="max-w-full mx-auto"
+                className="mx-auto max-w-full"
               />
-              <span className="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-110">
+              <span className="absolute -bottom-0 left-1/2 -z-10 -translate-x-1/2 md:scale-110">
                 <svg
                   width={400}
                   height={400}

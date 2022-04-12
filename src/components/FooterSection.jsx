@@ -3,21 +3,21 @@ function FooterSection() {
     <footer className="bg-dark pt-24 pb-12">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-            <h3 className="font-bold text-4xl text-white mb-5">Hubungi Kami</h3>
+          <div className="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
+            <h3 className="mb-5 text-4xl font-bold text-white">Hubungi Kami</h3>
             <p>cipto.suheri@gmail.com</p>
             <p>Jl. Kaliaren no 156</p>
             <p>Bojonegoro</p>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/3">
-            <h3 className="font-semibold text-xl text-white mb-5">
+          <div className="mb-12 w-full px-4 md:w-1/3">
+            <h3 className="mb-5 text-xl font-semibold text-white">
               Kategori Tulisan
             </h3>
             <ul className="text-slate-300">
               <li>
                 <a
                   href="#tips"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Programming
                 </a>
@@ -25,7 +25,7 @@ function FooterSection() {
               <li>
                 <a
                   href="#tips"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Teknologi
                 </a>
@@ -33,22 +33,22 @@ function FooterSection() {
               <li>
                 <a
                   href="#tips"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Gaya Hidup
                 </a>
               </li>
             </ul>
           </div>
-          <div className="w-full px-4 mb-12 md:w-1/3">
-            <h3 className="font-semibold text-xl text-white mb-5">
+          <div className="mb-12 w-full px-4 md:w-1/3">
+            <h3 className="mb-5 text-xl font-semibold text-white">
               Kategori Tautan
             </h3>
             <ul className="text-slate-300">
               <li>
                 <a
                   href="#home"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Beranda
                 </a>
@@ -56,7 +56,7 @@ function FooterSection() {
               <li>
                 <a
                   href="#about"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Tentang Saya
                 </a>
@@ -64,7 +64,7 @@ function FooterSection() {
               <li>
                 <a
                   href="#portfolio"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Portfolio
                 </a>
@@ -72,7 +72,7 @@ function FooterSection() {
               <li>
                 <a
                   href="#blog"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Blog
                 </a>
@@ -80,7 +80,7 @@ function FooterSection() {
               <li>
                 <a
                   href="#contact"
-                  className="inline-block text-base hover:text-primary mb-3"
+                  className="mb-3 inline-block text-base hover:text-primary"
                 >
                   Contact
                 </a>
@@ -88,11 +88,11 @@ function FooterSection() {
             </ul>
           </div>
         </div>
-        <div className="w-full pt-10 border-t border-slate-700">
-          <div className="flex items-center justify-center mb-5">
+        <div className="w-full border-t border-slate-700 pt-10">
+          <div className="mb-5 flex items-center justify-center">
             <div className="flex items-center">
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://www.linkedin.com/in/cipto-suhari/"
                 rel="noreferrer"
                 target="_blank"
@@ -110,7 +110,7 @@ function FooterSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://instagram.com/ciptosuhari"
                 rel="noreferrer"
                 target="_blank"
@@ -128,7 +128,7 @@ function FooterSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://twitter.com/hari_kun"
                 rel="noreferrer"
                 target="_blank"
@@ -146,7 +146,7 @@ function FooterSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://facebook.com/hari.uchiha.3"
                 rel="noreferrer"
                 target="_blank"
@@ -165,7 +165,7 @@ function FooterSection() {
               </a>
             </div>
           </div>
-          <p className="font-medium text-xs text-slate-500 text-center">
+          <p className="text-center text-xs font-medium text-slate-500">
             Dibuat dengan ❤️ oleh{" "}
             <a
               href="https://twitter.com/hari_kun"

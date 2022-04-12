@@ -18,13 +18,13 @@ function NavBar() {
   };
 
   return (
-    <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
       <div className="container ">
-        <div className="flex justify-between items-center relative">
+        <div className="relative flex items-center justify-between">
           <div className="px-4">
             <a
               href="#home"
-              className="font-bold text-lg text-primary block py-6"
+              className="block py-6 text-lg font-bold text-primary"
             >
               Cipto Suhari
             </a>
@@ -34,24 +34,24 @@ function NavBar() {
               id="hamburger"
               name="hamburger"
               type="button"
-              className="block absolute right-4 lg:hidden"
+              className="absolute right-4 block lg:hidden"
               onClick={hambuger}
             >
-              <span className="origin-top-left hamburger-line transition duration-300 ease-in-out"></span>
+              <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
               <span className="hamburger-line transition duration-300 ease-in-out"></span>
-              <span className="origin-bottom-left hamburger-line transition duration-300 ease-in-out"></span>
+              <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
             </button>
 
             <nav
               id="nav-menu"
-              className="hidden right-4 absolute top-full py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full lg:block lg:static
-              lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              className="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block
+              lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
             >
               <ul className="block lg:flex">
                 <li className="group">
                   <a
                     href="#home"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
                   >
                     Beranda
                   </a>
@@ -59,7 +59,7 @@ function NavBar() {
                 <li className="group">
                   <a
                     href="#about"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
                   >
                     Tentang Saya
                   </a>
@@ -67,7 +67,7 @@ function NavBar() {
                 <li className="group">
                   <a
                     href="#portfolio"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
                   >
                     Portfolio
                   </a>
@@ -75,7 +75,7 @@ function NavBar() {
                 <li className="group">
                   <a
                     href="#blog"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
                   >
                     Blog
                   </a>
@@ -83,7 +83,7 @@ function NavBar() {
                 <li className="group">
                   <a
                     href="#contact"
-                    className="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    className="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
                   >
                     Contact
                   </a>

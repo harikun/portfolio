@@ -3,29 +3,29 @@ function AboutSection() {
     <section id="about" className=" pt-6 pb-32">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h2 className="font-bold uppercase text-primary text-lg mb-3">
+          <div className="mb-10 w-full px-4 lg:w-1/2">
+            <h2 className="mb-3 text-lg font-bold uppercase text-primary">
               Tentang Saya
             </h2>
-            <p className=" lg:text-4xl font-bold text-dark text-3xl mb-5 max-w-md">
+            <p className=" mb-5 max-w-md text-3xl font-bold text-dark lg:text-4xl">
               Yuk, Belajar Web Programming di sini!
             </p>
-            <p className=" lg:text-lg font-medium text-base text-secondary max-w-xl">
+            <p className=" max-w-xl text-base font-medium text-secondary lg:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               varius nulla at dolor consequat pellentesque. Aliquam.
             </p>
           </div>
-          <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h2 className="lg:pt-10 lg:text-3xl font-semibold text-dark text-2xl mb-4">
+          <div className="mb-10 w-full px-4 lg:w-1/2">
+            <h2 className="mb-4 text-2xl font-semibold text-dark lg:pt-10 lg:text-3xl">
               Mari Berteman
             </h2>
-            <p className="lg:text-lg font-medium text-base text-secondary mb-6">
+            <p className="mb-6 text-base font-medium text-secondary lg:text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               nisi nisl, dictum in dolor sit amet, suscipit pharetra massa.
             </p>
             <div className="flex items-center">
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://www.linkedin.com/in/cipto-suhari/"
                 rel="noreferrer"
                 target="_blank"
@@ -43,7 +43,7 @@ function AboutSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://instagram.com/ciptosuhari"
                 rel="noreferrer"
                 target="_blank"
@@ -61,7 +61,7 @@ function AboutSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://twitter.com/hari_kun"
                 rel="noreferrer"
                 target="_blank"
@@ -79,7 +79,7 @@ function AboutSection() {
                 </svg>
               </a>
               <a
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary text-slate-600 hover:bg-primary hover:text-white"
+                className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-600 hover:border-primary hover:bg-primary hover:text-white"
                 href="https://facebook.com/hari.uchiha.3"
                 rel="noreferrer"
                 target="_blank"
