@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <section id="home" className="pt-36 pb-32">
+    <section id="home" className="pt-36 pb-32 dark:bg-dark">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">

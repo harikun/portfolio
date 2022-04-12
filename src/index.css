@@ -27,6 +27,10 @@ html {
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45;
 }
+
+#dark-toggle:checked ~ label div.toggle-circle {
+  @apply translate-x-3;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
