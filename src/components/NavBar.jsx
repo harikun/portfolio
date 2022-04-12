@@ -1,10 +1,19 @@
 function NavBar() {
+  let nav;
+  let navMenu;
   const hambuger = () => {
-    const nav = document.querySelector("#hamburger");
-    const navMenu = document.querySelector("#nav-menu");
+    nav = document.querySelector("#hamburger");
+    navMenu = document.querySelector("#nav-menu");
     nav.classList.toggle("hamburger-active");
     navMenu.classList.toggle("hidden");
   };
+
+  window.addEventListener("click", function (e) {
+    if (e.target !== nav && e.target !== navMenu) {
+      nav.classList.remove("hamburger-active");
+      navMenu.classList.add("hidden");
+    }
+  });
 
   window.onscroll = function () {
     const header = document.querySelector("header");
