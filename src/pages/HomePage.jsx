@@ -5,6 +5,7 @@ import PortfolioSection from "../components/PorfolioSection";
 import BlogSection from "../components/BlogSection";
 import ContactSection from "../components/ContactSection";
 import FooterSection from "../components/FooterSection";
+import BackToTop from "../components/BackToTp";
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <BlogSection />
       <ContactSection />
       <FooterSection />
+      <BackToTop />
     </>
   );
 }
