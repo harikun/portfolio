@@ -14,15 +14,14 @@ function PortfolioSection() {
               Project Terbaru
             </h4>
             <p className="text-md font-medium text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
-              lorem elit. In eros lectus. consectetur adipiscing elit. Morbi ut
-              lorem elit.
+              Ini adalah beberapa project yang pernah saya kerjakan dalam proses
+              belajar web programming dan data scraping.
             </p>
           </div>
         </div>
-        <div className="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
+        <div className="flex w-full flex-wrap justify-center px-4  xl:mx-auto xl:w-10/12">
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="overflow-hidden rounded-md shadow-md">
+            <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
                 src={require("../images/portfolio-4.png")}
                 alt="Landing Page Budiman (CV)"
@@ -40,14 +39,13 @@ function PortfolioSection() {
               </h3>
 
               <p className="text-base font-medium text-secondary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                ut lorem elit. In eros lectus. consectetur adipiscing elit.
-                Morbi ut lorem elit
+                website untuk memperkenalkan sebuah usaha (CV) perdagangan
+                barang hasil Industri dan jasa.
               </p>
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="overflow-hidden rounded-md shadow-md">
+            <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
                 src={require("../images/portfolio-3.png")}
                 alt="Python Script for Scraping Indonesian Website's Data"
@@ -64,14 +62,13 @@ function PortfolioSection() {
                 </a>
               </h3>
               <p className="text-base font-medium text-secondary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                ut lorem elit. In eros lectus. consectetur adipiscing elit.
-                Morbi ut lorem elit
+                Kumpulan skrip python untuk mengambil data dari situs-situs web
+                yang berada di Indonesia
               </p>
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="overflow-hidden rounded-md shadow-md">
+            <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
                 src={require("../images/portfolio-2.png")}
                 alt="Canvas Gambar untuk anak-anak"
@@ -90,14 +87,13 @@ function PortfolioSection() {
               </h3>
 
               <p className="text-base font-medium text-secondary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                ut lorem elit. In eros lectus. consectetur adipiscing elit.
-                Morbi ut lorem elit
+                Aplikasi untuk corat-coret buat anak-anak, bisa menyimpan hasil
+                corat-coret ke format PNG.
               </p>
             </div>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="overflow-hidden rounded-md shadow-md">
+            <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
                 src={require("../images/portfolio-1.png")}
                 alt="Kalkulator Pajak Penghasilan"
@@ -114,9 +110,8 @@ function PortfolioSection() {
                 </a>
               </h3>
               <p className="text-base font-medium text-secondary">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                ut lorem elit. In eros lectus. consectetur adipiscing elit.
-                Morbi ut lorem elit
+                Perkirakan jumlah pajak yang wajib anda bayar selama setahun
+                dengan kalkulator sederhana berikut.
               </p>
             </div>
           </div>

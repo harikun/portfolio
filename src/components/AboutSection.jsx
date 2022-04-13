@@ -8,11 +8,11 @@ function AboutSection() {
               Tentang Saya
             </h2>
             <p className="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">
-              Yuk, Belajar Web Programming di sini!
+              Yuk, Belajar Web Programming bersama!
             </p>
             <p className=" max-w-xl text-base font-medium text-secondary lg:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              varius nulla at dolor consequat pellentesque. Aliquam.
+              Mari Belajar Web programming dengan menggunakan bahasa pemrograman
+              Javascript dan belajar Data Scraping dengan Python.
             </p>
           </div>
           <div className="mb-10 w-full px-4 lg:w-1/2">
@@ -20,8 +20,8 @@ function AboutSection() {
               Mari Berteman
             </h2>
             <p className="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              nisi nisl, dictum in dolor sit amet, suscipit pharetra massa.
+              mari berteman dengan saling menyapa melalui akun sosial media yang
+              biasa kamu gunakan sehari-hari.
             </p>
             <div className="flex items-center">
               <a
