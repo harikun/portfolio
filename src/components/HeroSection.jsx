@@ -31,7 +31,7 @@ function HeroSection() {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:right-0 lg:mt-0">
               <img
-                src={require("../images/hero-image.png")}
+                src={require("../images/hero-image.webp")}
                 alt="Cipto Suhari"
                 className="relative z-10 mx-auto max-w-full"
               />

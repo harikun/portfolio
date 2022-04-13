@@ -23,7 +23,7 @@ function PortfolioSection() {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
-                src={require("../images/portfolio-4.png")}
+                src={require("../images/portfolio-4.webp")}
                 alt="Landing Page Budiman (CV)"
                 className="w-full"
               />
@@ -47,7 +47,7 @@ function PortfolioSection() {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
-                src={require("../images/portfolio-3.png")}
+                src={require("../images/portfolio-3.webp")}
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
               />
@@ -70,7 +70,7 @@ function PortfolioSection() {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
-                src={require("../images/portfolio-2.png")}
+                src={require("../images/portfolio-2.webp")}
                 alt="Canvas Gambar untuk anak-anak"
                 className="w-full"
               />
@@ -95,7 +95,7 @@ function PortfolioSection() {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="overflow-hidden rounded-md p-2 shadow-md dark:shadow-slate-500">
               <img
-                src={require("../images/portfolio-1.png")}
+                src={require("../images/portfolio-1.webp")}
                 alt="Kalkulator Pajak Penghasilan"
                 className="w-full"
               />
