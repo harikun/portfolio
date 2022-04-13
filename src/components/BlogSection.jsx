@@ -16,7 +16,7 @@ function BlogSection() {
         </div>
         <div className="flex flex-wrap">
           <div className="mb-6 w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div className="overflow-hidden rounded-xl bg-white shadow-lg">
+            <div className="overflow-hidden rounded-xl bg-white shadow-lg dark:bg-dark">
               <img
                 src="https://source.unsplash.com/360x200?programming"
                 alt="Programming"
@@ -28,7 +28,7 @@ function BlogSection() {
                     href="#blog"
                     rel="noreferrer"
                     target="_blank"
-                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary"
+                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
                     Tips Belajar Programming
                   </a>
@@ -49,7 +49,7 @@ function BlogSection() {
             </div>
           </div>
           <div className="mb-6 w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div className="overflow-hidden rounded-xl bg-white shadow-lg">
+            <div className="overflow-hidden rounded-xl bg-white shadow-lg dark:bg-dark">
               <img
                 src="https://source.unsplash.com/360x200?javascript"
                 alt="Javascript"
@@ -61,7 +61,7 @@ function BlogSection() {
                     href="#blog"
                     rel="noreferrer"
                     target="_blank"
-                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary"
+                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
                     Tips Belajar Javascript
                   </a>
@@ -82,7 +82,7 @@ function BlogSection() {
             </div>
           </div>
           <div className="mb-6 w-full px-4 lg:w-1/2 xl:w-1/3">
-            <div className="overflow-hidden rounded-xl bg-white shadow-lg">
+            <div className="overflow-hidden rounded-xl bg-white shadow-lg dark:bg-dark">
               <img
                 src="https://source.unsplash.com/360x200?Reactjs"
                 alt="Programming"
@@ -94,7 +94,7 @@ function BlogSection() {
                     href="#blog"
                     rel="noreferrer"
                     target="_blank"
-                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary"
+                    className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
                     Tips Belajar React.js
                   </a>

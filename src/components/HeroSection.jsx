@@ -6,16 +6,18 @@ function HeroSection() {
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary lg:text-xl">
               Halo Semua 👋, saya{" "}
-              <span className="mt-1 mb-2 block text-4xl font-bold text-dark lg:text-5xl">
+              <span className="mt-1 mb-2 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">
                 Cipto Suhari
               </span>
             </h1>
-            <p className="h2 mb-5 text-lg font-medium text-secondary">
-              Front End Developer
+            <p className=" h2 mb-5 text-lg font-medium text-secondary dark:text-white">
+              Front End Dev & Data Scraper
             </p>
             <p className="mb-10 font-medium leading-relaxed text-secondary">
               Belajar web programming itu menyenangkan dan mudah bukan?{" "}
-              <span className="font-semibold text-dark">Bukan!</span>
+              <span className="font-semibold text-dark dark:text-white">
+                Bukan!
+              </span>
             </p>
             <a
               href="#hubungi"
@@ -29,9 +31,9 @@ function HeroSection() {
               <img
                 src={require("../images/hero-image.png")}
                 alt="Cipto Suhari"
-                className="mx-auto max-w-full"
+                className="relative z-10 mx-auto max-w-full"
               />
-              <span className="absolute -bottom-0 left-1/2 -z-10 -translate-x-1/2 md:scale-110">
+              <span className="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-110">
                 <svg
                   width={400}
                   height={400}

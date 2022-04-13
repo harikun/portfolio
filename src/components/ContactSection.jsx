@@ -1,11 +1,11 @@
 function ContactSection() {
   return (
-    <section id="contact" className="pt-32 pb-32">
+    <section id="contact" className="pt-32 pb-32 dark:bg-slate-800">
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-full text-center">
             <h3 className="mb-2 text-lg font-semibold text-primary">Contact</h3>
-            <h4 className="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">
+            <h4 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
               Hubungi Kami
             </h4>
             <p className="text-md font-medium text-secondary md:text-lg">

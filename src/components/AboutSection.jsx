@@ -1,13 +1,13 @@
 function AboutSection() {
   return (
-    <section id="about" className=" pt-6 pb-32">
+    <section id="about" className=" pt-6 pb-32 dark:bg-dark">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="mb-10 w-full px-4 lg:w-1/2">
             <h2 className="mb-3 text-lg font-bold uppercase text-primary">
               Tentang Saya
             </h2>
-            <p className=" mb-5 max-w-md text-3xl font-bold text-dark lg:text-4xl">
+            <p className="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">
               Yuk, Belajar Web Programming di sini!
             </p>
             <p className=" max-w-xl text-base font-medium text-secondary lg:text-lg">
@@ -16,7 +16,7 @@ function AboutSection() {
             </p>
           </div>
           <div className="mb-10 w-full px-4 lg:w-1/2">
-            <h2 className="mb-4 text-2xl font-semibold text-dark lg:pt-10 lg:text-3xl">
+            <h2 className="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">
               Mari Berteman
             </h2>
             <p className="mb-6 text-base font-medium text-secondary lg:text-lg">

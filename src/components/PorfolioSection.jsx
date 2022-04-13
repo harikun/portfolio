@@ -1,13 +1,16 @@
 function PortfolioSection() {
   return (
-    <section id="portfolio" className="bg-slate-100 pt-16 pb-16">
+    <section
+      id="portfolio"
+      className="bg-slate-100 pt-16 pb-16 dark:bg-slate-800"
+    >
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 max-w-xl text-center">
             <h3 className="mb-2 text-lg font-semibold text-primary">
               Portfolio
             </h3>
-            <h4 className="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">
+            <h4 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
               Project Terbaru
             </h4>
             <p className="text-md font-medium text-secondary md:text-lg">
@@ -25,7 +28,7 @@ function PortfolioSection() {
                 alt="Landing Page Budiman (CV)"
                 className="w-full"
               />
-              <h3 className="mt-5 text-lg font-semibold text-dark">
+              <h3 className="mt-5 text-lg font-semibold text-dark dark:text-white">
                 <a
                   href="https://cvbudiman.netlify.app/"
                   rel="noreferrer"
@@ -50,14 +53,14 @@ function PortfolioSection() {
                 alt="Python Script for Scraping Indonesian Website's Data"
                 className="w-full"
               />
-              <h3 className="mt-5 text-lg font-semibold text-dark">
+              <h3 className="mt-5 text-lg font-semibold text-dark dark:text-white">
                 <a
                   href="https://github.com/harikun/data-scraping"
                   rel="noreferrer"
                   target="_blank"
                   className="underline"
                 >
-                  Python Script web Indonesia
+                  Python Script Web Indonesia
                 </a>
               </h3>
               <p className="text-base font-medium text-secondary">
@@ -75,7 +78,7 @@ function PortfolioSection() {
                 className="w-full"
               />
 
-              <h3 className="mt-5 text-lg font-semibold text-dark">
+              <h3 className="mt-5 text-lg font-semibold text-dark dark:text-white">
                 <a
                   href="https://ngambar.netlify.app/"
                   rel="noreferrer"
@@ -100,7 +103,7 @@ function PortfolioSection() {
                 alt="Kalkulator Pajak Penghasilan"
                 className="w-full"
               />
-              <h3 className="mt-5 text-lg font-semibold text-dark">
+              <h3 className="mt-5 text-lg font-semibold text-dark dark:text-white">
                 <a
                   href="https://calljak.web.app/"
                   rel="noreferrer"
