@@ -15,14 +15,31 @@ function NavBar() {
     }
   });
 
+  let darkId;
   const darkToggle = () => {
-    const darkId = document.querySelector("#dark-toggle");
+    darkId = document.querySelector("#dark-toggle");
     const html = document.querySelector("html");
 
     if (darkId.checked) {
       html.classList.add("dark");
+      localStorage.theme = "dark";
     } else {
       html.classList.remove("dark");
+      localStorage.theme = "light";
+    }
+
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+  };
+  window.onload = () => {
+    darkId = document.querySelector("#dark-toggle");
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      darkId.checked = true;
+    } else {
+      darkId.checked = false;
     }
   };
 
