@@ -9,8 +9,8 @@ function ContactSection() {
               Hubungi Kami
             </h4>
             <p className="text-md font-medium text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              libero quam, sollicitudin vel augue.
+              Hubungi kami melalui form agar dibalas secepatnya. Tapi boong
+              hehe. Ini formnya cuma dummy aja.
             </p>
           </div>
         </div>

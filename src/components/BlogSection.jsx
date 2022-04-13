@@ -9,8 +9,7 @@ function BlogSection() {
               Tulisan Terkini
             </h4>
             <p className="text-md font-medium text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              libero quam, sollicitudin vel augue.
+              Tulisan terbaru dari kami dapat dilihat di sini.
             </p>
           </div>
         </div>
@@ -25,21 +24,20 @@ function BlogSection() {
               <div className="py-8 px-6">
                 <h3>
                   <a
-                    href="#blog"
+                    href="https://karyakarsa.com/ciptosuhari/dokumentasi-nextjs-v11-bahsa"
                     rel="noreferrer"
                     target="_blank"
                     className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
-                    Tips Belajar Programming
+                    Tips Belajar Framework Next.js
                   </a>
                 </h3>
 
                 <p className="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Curabitur libero quam amet.
+                  Tulisan tentang serba serbi Next.js framework JavaScript
                 </p>
                 <a
-                  href="#blog"
+                  href="https://karyakarsa.com/ciptosuhari/dokumentasi-nextjs-v11-bahsa"
                   className=" rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
                 >
                   {" "}
@@ -58,21 +56,20 @@ function BlogSection() {
               <div className="py-8 px-6">
                 <h3>
                   <a
-                    href="#blog"
+                    href="https://karyakarsa.com/ciptosuhari/dokumentasi-swr-hook-v10"
                     rel="noreferrer"
                     target="_blank"
                     className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
-                    Tips Belajar Javascript
+                    Tips Belajar SWR Hook
                   </a>
                 </h3>
 
                 <p className="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Curabitur libero quam amet.
+                  Belajar SWR Hook dengan mudah bagi pemula
                 </p>
                 <a
-                  href="#blog"
+                  href="https://karyakarsa.com/ciptosuhari/dokumentasi-swr-hook-v10"
                   className=" rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
                 >
                   {" "}
@@ -91,21 +88,20 @@ function BlogSection() {
               <div className="py-8 px-6">
                 <h3>
                   <a
-                    href="#blog"
+                    href="https://karyakarsa.com/ciptosuhari/dokumentasi-react-router-web-v530"
                     rel="noreferrer"
                     target="_blank"
                     className=" mb-3 block truncate text-xl font-semibold underline hover:text-primary dark:text-white"
                   >
-                    Tips Belajar React.js
+                    Tips Belajar React Router DOM
                   </a>
                 </h3>
 
                 <p className="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Curabitur libero quam, sollicitudin vel augue.
+                  Panduan Wajib belajar React Router DOM untuk pemula
                 </p>
                 <a
-                  href="#blog"
+                  href="https://karyakarsa.com/ciptosuhari/dokumentasi-react-router-web-v530"
                   className=" rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80"
                 >
                   {" "}
